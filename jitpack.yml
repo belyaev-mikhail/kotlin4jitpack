@@ -1,0 +1,7 @@
+jdk:
+ - oraclejdk8
+install:
+ - cd kotlin
+ - ant -f update_dependencies.xml
+ - ant -f build.xml
+ - mvn install:install-file -Dfile=dist/kotlin-compiler-before-shrink.jar -DgroupId=org.jetbrains.kotlin -DartifactId=kotlin-compiler-before-shrink -Dversion=0.0.1 -Dpackaging=jar
