@@ -14,7 +14,7 @@ mvn deploy:deploy-file \
     -Dfile=prepare/compiler/build/libs/kotlin-compiler-1.2-SNAPSHOT-before-proguard.jar \
     -DgroupId=org.jetbrains.kotlin \
     -DartifactId=kotlin-compiler-nostrip \
-    -Dversion=1.2.41 \
+    -Dversion=1.2.60 \
     -Dpackaging=jar \
     -Durl="https://api.bintray.com/maven/vorpal-research/kotlin-maven/kotlin-compiler-nostrip/;publish=1" \
     -DrepositoryId=bintray-vorpal-research-kotlin-maven
@@ -23,7 +23,7 @@ mvn deploy:deploy-file \
     -Dfile=prepare/compiler/build/libs/kotlin-compiler-1.2-SNAPSHOT-sources.jar \
     -DgroupId=org.jetbrains.kotlin \
     -DartifactId=kotlin-compiler-nostrip \
-    -Dversion=1.2.41 \
+    -Dversion=1.2.60 \
     -Dpackaging=jar \
     -Dclassifier=sources \
     -Durl="https://api.bintray.com/maven/vorpal-research/kotlin-maven/kotlin-compiler-nostrip/;publish=1" \
